@@ -13,7 +13,6 @@
         "squizlabs/php_codesniffer": "^2.5",
         "sebastian/phpcpd": "^2.0",
         "phpmd/phpmd": "^2.3",
-        "behat/behat": "~3.0.6",
         "pdepend/pdepend": "^2.2"
     },
     "authors": [
@@ -29,7 +28,6 @@
         }
     },
     "scripts": {
-        "behat": "behat",
         "phing": "phing",
         "coveralls": "coveralls"
     },
