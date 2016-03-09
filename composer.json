@@ -1,0 +1,40 @@
+{
+    "name": "etna/silex-console",
+    "description": "Symfony console for silex application",
+    "license": "proprietary",
+    "require": {
+        "php": ">=5.6.0",
+        "silex/silex": "~2.0@dev",
+        "symfony/console": "~2.0"
+    },
+    "require-dev": {
+        "phing/phing": "^2.13",
+        "phploc/phploc": "^3.0",
+        "squizlabs/php_codesniffer": "^2.5",
+        "sebastian/phpcpd": "^2.0",
+        "phpmd/phpmd": "^2.3",
+        "pdepend/pdepend": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "Faouzi Chaachoua",
+            "email": "chaach_f@etna-alternance.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ETNA\\Silex\\Provider\\Console\\": "src"
+        }
+    },
+    "scripts": {
+        "phing": "phing",
+        "coveralls": "coveralls"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://blu-composer.herokuapp.com"
+        }
+    ]
+}
